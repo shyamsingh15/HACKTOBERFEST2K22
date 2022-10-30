@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html lang="el">
+<head>
+    <title>Payment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css" />
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <!-- wrapper start-->
+    <div class="wrapper">
+        <!--header start-->
+        <header class="header">
+        </header>
+        <!--header end-->
+        <!--content start-->
+        <section class="content">
+            <div class="container">
+                <h1>Payment Gateway Smart-Cart</h1>
+                <h2>Welcome to Payment Gateway Smart-Cart</h2>
+            </div>
+        </section>
+        <!-- content end-->
+        <section class="payment">
+            <div class="container">
+                
+                <div id="tabs" class="service-title">
+                    <h3>Choose Payment Method</h3>
+                    <ul class="tab">
+                        <li><a href="#tabs-1" class="card">CREDIT CARD</a></li>
+                        <li><a href="#tabs-2" class="card">DEBIT CARD</a></li>
+                        <li><a href="#tabs-3" class="card">QR CODE</a></li>
+                    </ul>
+                    <div class="tabing">
+                        <div id="tabs-1" class="acknowledge">
+                            
+                            <div class="card-wrapper">
+                                <div class="card-details">
+                                    <label for="fname" class="name">Card Holder Name:</label>
+                                    <input type="text" id="name" name="name" maxlength="20">
+                                </div>
+                                <div class="card-details">
+                                    <label for="fname" class="name">Card Number:</label>
+                                    <input id="name" type="tel" pattern="[0-9]* name="name" maxlength="12" required>
+                                </div>
+                                <div class="card-details">
+                                    <label for="fname" class="name">Cvv Number:</label>
+                                    <input id="name" type="tel" pattern="[0-9]* name="name" maxlength="3" required />
+                                </div>
+                                <div class="card-details">
+                                    <label for="fname" class="name">Card Expiry:</label>
+                                    <input class="name" name="expiry" id="name" type="month" required />
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tabs-2" class="acknowledge">
+                            <div class="card-wrapper">
+                                <div class="card-details">
+                                    <label for="fname" class="name">Card Holder Name:</label>
+                                    <input type="text" id="name" name="name" maxlength="20">
+                                </div>
+                                <div class="card-details">
+                                    <label for="fname" class="name">Card Number:</label>
+                                    <input id="name" type="tel" pattern="[0-9]* name="name" maxlength="12" required>
+                                </div>
+                                <div class="card-details">
+                                    <label for="fname" class="name">Cvv Number:</label>
+                                    <input id="name" type="tel" pattern="[0-9]* name="name" maxlength="3" required />
+                                </div>
+                                <div class="card-details">
+                                    <label for="fname" class="name">Card Expiry:</label>
+                                    <input class="name" name="expiry" id="name" type="month" required />
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tabs-3" class="acknowledge">
+                            <h2>Please Scan Me</h2>
+                            <div class="qr-data">
+                                <img src="assets/images/qr1.jpg" alt="please scan me" title="please scan me">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button-wrap">
+                        <a href="#" class="btn">Pay</a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <!-- section footer start-->
+        <footer class="footer">
+        </footer>
+        <!-- section footer end-->
+    </div>
+    <!-- wrapper end-->
+</body>
+<!-- js code -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="assets/js/slick.min.js"></script>
+<script src="assets/js/custom.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</html>
