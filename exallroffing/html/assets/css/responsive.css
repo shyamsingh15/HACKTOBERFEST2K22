@@ -1,0 +1,399 @@
+@media all and (min-width:520px) {
+    .content{
+        padding: 80px 40px;
+    }
+}
+@media all and (min-width:768px){
+    .overflow{
+        overflow: hidden;
+    }
+    .header{
+        background:transparent;
+        padding: 30px 0;
+        z-index: 1;
+    }
+    .logo{
+        margin-left: 0;
+    }
+    .mob-menu{
+        display: none;
+    }
+    .circle{
+        display: none;
+    }
+    .nav-wrapper{
+        align-items: center;
+        display: flex;
+        justify-content:flex-end;
+        position: static;
+        padding: 0;
+        background: transparent;
+        max-width: 530px;
+    }
+    .navbar{
+        margin-bottom: 0;
+    }
+    .nav-menu{
+        display: flex;
+        padding: 0;
+    }
+    .nav-menu li{
+        padding: 0;
+        margin-right: 10px;
+        border-bottom: 0;
+    }
+    .nav-menu a{
+        color: #000000;
+        padding: 4px 2px;
+        position: relative;
+    }
+    .nav-menu a::after{
+        content: "";
+        position: absolute;
+        left:0;
+        bottom: 0;
+        background: #0cb0dd;
+        height: 2px;
+        width: 0%;
+        transition: width 1s;
+    }
+    .nav-menu a:hover::after{
+        width: 100%;
+    }
+    .nav-wrapper .btn{
+        padding: 8px;
+    }
+    .nav-wrapper .btn:hover{
+        background: #04355a;
+    }
+    /**content section starts**/
+    .content{
+        background: none;
+        padding: 18px 0;
+    }
+    .content .container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: left;
+        position: relative;
+    }
+    .content .container::after{
+        content: "";
+        position: absolute;
+        top: -439px;
+        right: -378px;
+        width: 1089px;
+        height: 1089px;
+        background: #f3fbfd;;
+        border-radius: 50%;    
+    }
+    .content h1{
+        font-size: 3.7rem;
+        padding: 0;
+        color: #034779;
+    }
+    .content p{
+        color: #000022;
+    }
+    .content p:nth-last-of-type(2){
+        margin-bottom: 24px;
+    }
+    .content p:last-of-type{
+        display: block;
+        word-spacing: -0.3px;
+    }
+    .service{
+        max-width: 480px;
+        width: 49%;
+        padding: 41px 0;;
+        z-index: 1;
+    }
+    .mob-hide{
+        display: block;  
+    }
+    .map-img{
+        width: 340px;
+        position: relative;
+        z-index: 1;
+    }
+    /**contact-us**/
+    .contact-us{
+        position: absolute;
+        top: 21px;
+        right: 13px;
+        z-index: 1;
+    }
+    .time{
+        display: block;
+        font-size: 1.2rem;
+        color: #034779;
+        text-align: right;
+        font-family: 'Gilroy';
+        font-weight: 500;
+        line-height: 1;
+    }
+    .telephone{
+        font-size: 2.0rem;
+        color: #0a4a7b;
+        position: relative;
+        font-family: 'gilroybold';
+    }
+    .telephone::after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 5px;
+        background: #79d3ec;
+        right: 0;
+        bottom: 4px;
+        z-index: -1;
+    }
+    /**icon-phone**/
+    .icon-phone{
+        position: absolute;
+        top: -8px;
+        left: -42px;
+        background-position: -11px -41px;
+        width: 35px;
+        height: 35px;
+    }
+    /**green zone box**/
+    .service-address{
+        padding:0;
+        background: url("../images/address-bg.png") no-repeat;
+        position: absolute;
+        top: 18%;
+        z-index: 1;
+        text-align: center;
+        color: #000022;
+        font-size: 1.2rem;
+        top: 18%;
+        right: 26px;
+        max-width: 215px;
+        box-shadow: 0px 0px 4px -3px;
+    }
+    .service-address h2:last-of-type{
+        color: #f0bb19;
+        margin-bottom: 2px;
+    }
+    .address:first-of-type{
+        display: block;
+        margin-bottom: 10px;
+        text-indent: -0.95px;
+        word-spacing: 2px;
+        line-height: 1.5;
+    }
+    .address{
+        word-spacing: -2.7px;
+        line-height: 1.49;
+    }
+    /*rating */
+    .rating{
+        display:none;
+    }
+    .text-section{
+        display: block;
+        order:2;
+        padding:47px 0;
+    }
+    .text-section h2{
+        font-size: 4rem;
+    }
+    .call-outs{
+        display: flex;
+        justify-content: space-between;
+        width:50%;
+    }
+    /*roofing service */
+    .roofing-service{
+        display: block;
+        padding:100px 0;
+        position: relative;
+        order:1;
+    }
+    .roofing-service .container{
+        text-align: center;
+    }
+    .roofing-service h3{
+        color:#034779;
+        font-size: 2rem;
+        margin-bottom: 54px;
+    }
+    .features-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .service-hours{
+        max-width:275px;
+        margin-right:25px;
+        width:calc(25% - 25px);
+    }
+    .services-hours:last-child{
+        margin-right: 0;
+    }
+    .service-hours p{
+        font-size: 1.3rem;
+        color:#222222;
+        padding:0;
+        font-family: 'Titillium Web', sans-serif;
+    }
+    .icon-hours{
+        background-position:  -12px -102px;
+        width: 84px;
+        height: 75px;
+        margin-bottom: 13px;
+    }
+    .icon-commercial{
+        background-position: 1px -191px;
+        width: 84px;
+        height: 75px;
+        margin-bottom: 13px;
+    }
+    .service-hours h4:nth-child(2){
+        letter-spacing: -0.5px;
+    }
+    .icon-calling{
+        background-position:  1px -287px;
+        width: 84px;
+        height: 75px;
+        margin-bottom: 12px;
+    }
+    .icon-like{
+    background-position:-109px -35px;
+	width: 84px;
+	height: 75px;
+    margin-bottom: 12px;
+    }
+    .services-hours h4{
+        padding:0 15px;
+        margin-bottom: 20px;
+    }  
+}
+/**tablet landscape**/
+@media all and (min-width:1024px) {
+    .logo{
+        width: 215px;
+    }
+    .content .container::after {
+        top: -87%;
+        right: -64%;
+    }
+    .map-img{
+        width: 400px;
+    }
+    .roofing-service h3{
+        font-size: 4rem;
+    }
+}
+/**desktop**/
+@media all and (min-width:1280px) {
+    .header{
+        padding: 48px 0 20px;
+    }
+    .header .container{
+        padding: 0;
+    }
+    .logo{
+        width: 305px;
+        margin-top: 0;
+        margin-left: -2px;
+    }
+    .nav-menu a{
+        font-size: 1.6rem;
+    }
+    .nav-wrapper{
+        max-width: 782px;
+        justify-content: space-between;
+    }
+    .nav-wrapper .btn{
+        padding: 12px 44px;
+    }
+    .nav-menu li{
+        margin-right: 60px;
+    }
+    /**content**/
+    .service{
+        padding: 165px 0 20px;
+    }
+    .content .container{
+        padding: 0;
+    }
+    .content .container::after {
+        top: -423px;
+        right: -376px;
+    }
+    .content h1{
+        font-size:6rem;
+        line-height: 1.17;
+        margin-bottom: 32px;
+    }
+    .content p{
+        word-spacing: 0.7px;
+    }
+    .content p:first-of-type{
+        letter-spacing: 0.6px;
+        word-spacing: -1.6px;
+    }
+    .map-img{
+        padding-top: 14px;
+        width: 678px;
+    }
+    .service-address h2{
+        font-size:1.6rem;
+        margin-bottom: 2px;
+    }
+    .address:first-of-type{
+        margin-bottom: 27px;
+    }
+    /**time**/
+    .time{
+        font-size: 2.2rem;
+    }
+    /**telephone**/
+    .telephone{
+        font-size: 4.0rem;
+    }
+    .telephone::after{
+        width: 270px;
+        height: 11px;
+    }
+    /**contact us**/
+    .contact-us{
+        top: 0;
+        right: 0;
+    }
+    /**service-address**/
+    .service-address{
+        font-size: 1.6rem;
+        padding: 24px 17px 29px;
+        max-width: 280px;
+        top: 18%;
+        right: 0;
+    }
+    .icon-phone{
+        top: 11px;
+        left: -45px;
+    }
+    /* roofing services */
+    .roofing-service .container{
+        padding:0;
+    }
+    .service-hours h4{
+        font-size:2.4rem;
+        padding:1px;
+        text-indent: 9px;
+        margin-bottom: 30px;
+    }
+    .service-hours p{
+        font-size: 1.6rem;
+        padding:0 19px;
+        text-indent: 2px;
+    }
+    .like-content h4{
+        margin-left: 80px;
+    }
+    .like-content p{
+        margin-left: 23px;
+    }
+}

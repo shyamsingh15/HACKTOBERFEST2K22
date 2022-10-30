@@ -1,0 +1,264 @@
+/**header**/
+.header{
+    background: #034779;
+    padding: 22px 0 12px;
+    position: relative;
+}
+.overflow{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.header .container{
+    display: flex;
+    justify-content:space-between;
+}
+.logo{
+    width: 200px;
+    display: block;
+    margin-left:14px;
+    margin-top: 1px;
+}
+.nav-wrapper{
+    display: none;
+    background:#054677;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    padding:17px 10px
+}
+.navbar{
+    margin-bottom: 11px;
+}
+.nav-menu a{
+    font-family: 'Gilroy'
+}
+.nav-menu li{
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.6);
+}
+.nav-menu li:last-child{
+    border-bottom: 0;
+}
+/**icon-call**/
+.circle {
+    width: 34px;
+    height: 34px;
+    background: #0cb0dd;
+    border-radius: 50%;
+    margin-top: -2px;
+}
+.icon-call{
+    background-position: -11px -8px;
+    width: 17px;
+    height: 17px;
+    margin: 8px 0 0 9px;
+}
+/**mob-menu**/
+.mob-menu{
+    width:20px;
+    display: block;
+    margin-top: 5px;
+}
+.menu-bar{
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    margin-bottom: 5px;
+    display: block;
+}
+.active .menu-bar:first-child{
+    transform: rotate(45deg) translateX(-1px) translateY(4px) ;
+}
+.active .menu-bar:nth-child(2n){
+    display: none;
+}
+.active .menu-bar:last-child{
+    transform: rotate(-45deg) translateX(2px) translateY(-5px) ;
+}
+/**content section starts**/
+.content{
+    background: url("../images/banner.png") no-repeat;
+    background-size: cover;
+    padding: 26px 0;
+}
+.content .container{
+    text-align: center;
+}
+.content h1{
+    padding: 0 20px;
+}
+.content p:first-of-type{
+    margin-bottom: 23px;
+}
+.content p:last-of-type{
+    display: none;
+}
+.mob-hide{
+    display: none;
+}
+.rating{
+    padding:25px 0;
+    text-align: center;
+}
+.rating h3{
+    margin-bottom: 4px;
+}
+.rating img{
+    margin-bottom: 2px;
+}
+.review-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    margin-bottom: 16px;
+}
+.review{
+    font-size: 1.6rem;
+    color:#222222;
+    font-family:'gilroybold';
+}
+.review-logo{
+    margin-left:4px;
+}
+.review-content{
+    font-family: 'Gilroy';
+    margin-right: 3px;
+}
+.call{
+    font-size: 2rem;
+    margin-bottom: 19px;
+    padding:9px 0px 9px 31px;
+    text-align: left;
+    font-family:'gilroybold';
+}
+.mobile{
+    margin:5px 6px 0 6px;
+}
+.call-service{
+    font-size: 1.6rem;
+    font-family: 'Gilroy';
+    margin-left:-2px;
+}
+.cell{
+    padding: 11px 0;
+    background-color: #034779;
+}
+.btn:hover{
+    background:#034779;
+}
+/*text-section */
+.text-section{
+    text-align: center;
+    padding:6px 0 10px;
+}
+.text-section .container{
+    position: relative;
+    text-align: center;
+}
+.text-section .container::after{
+    content: "";
+    position: absolute;
+    width:594px;
+    height: 594px;
+    border-radius: 50%;
+    z-index:-1;
+    background: #f3fbfd;
+    top:-208px;
+    right:-378px;
+}
+.text-section h2{
+    margin-bottom: 25px;
+    font-size: 3rem;
+    color:#034779;
+    font-family:'gilroybold';
+}
+.company-table{
+    max-width: 580px;
+    overflow: auto;
+    text-align: left;
+    width:100%;
+    font-size: 1.6rem;
+}
+.company-table table{
+    border-collapse: collapse;
+    width:680px;
+}
+th,td{
+    border-bottom: 1px solid #f3fdfd;
+}
+.company-table th{
+    font-family:'gilroybold';
+    padding:0px 94px 17px 0px;   
+}
+.company-table td{
+    font-family:'Gilroy';
+    padding:13px 77px 17px 0;
+    color:#222222;
+}
+.company-table tr:last-child td{
+    border-bottom: 0;
+}
+.text-section p{
+    display: none;
+}
+.service-menu{
+    display: none;
+}
+/* image-block */
+.image-block{
+    display:flex;
+    padding:16px 0 0;
+}
+.left-block{
+    margin-right: 10px;
+    padding-top:44px;
+}
+/**roofing-service**/
+.roofing-service{
+    text-align: center;
+}
+.roofing-service h3{
+    color: #034779;
+    font-size: 3rem;
+    margin-bottom: 25px;
+}
+.icon-hours{
+    background-position: -16px -102px;
+	width: 84px;
+	height: 75px;
+    margin-bottom: 11px;
+}
+.service-hours p{
+    color:#222222;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    padding:1.6px 38px;
+    word-spacing: 2.21px;
+    letter-spacing: -0.1px;
+    text-indent: -7px;
+    margin-bottom: 26px;
+}
+.icon-commercial{
+    background-position:  -9px -200px;
+	width: 84px;
+	height: 75px;
+    margin-bottom: 5px;
+}
+.service-hours h4:nth-child(2){
+    padding:0px 6px;
+}
+.icon-calling{
+    background-position: -15px -287px;
+	width: 84px;
+	height: 75px;
+    margin-bottom: 8px;
+}
+.icon-like{
+    background-position: -129px -44px;
+	width: 84px;
+	height: 75px;
+    margin-bottom: 6px;
+}
